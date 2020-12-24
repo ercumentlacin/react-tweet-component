@@ -1,5 +1,5 @@
 import React from "react";
-import "./twitter";
+import "./twitter.css";
 import Tweet from "./Tweet";
 
 function Twitter() {
