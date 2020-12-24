@@ -1,0 +1,89 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+body {
+  color: white;
+  background-color: #15202b;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.tweet {
+  margin: 0 auto;
+  background-color: #15202b;
+  transition: all 250ms ease;
+  text-decoration: none;
+  color: white;
+  border:1px solid rgb(52, 71, 92);
+  max-width: 600px;
+}
+.tweet:hover {
+  background-color: rgb(34, 51, 70);
+}
+
+.user-description {
+  font-weight: bold;
+}
+
+.user-description > a > img {
+  height: 16px;
+}
+
+.img-thumbnail {
+  max-width: 75px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+.text-muted {
+  font-weight: 400;
+}
+button:focus {
+  outline: none;
+  border:none;
+}
+button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #8899A6;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+button.comment:hover,
+button.external:hover,
+button.chart-bar:hover {
+  color: aqua;
+}
+button.comment:hover > i.fa-comment,
+button.external:hover > i.fa-external-link-alt,
+button.chart-bar:hover > i.fa-chart-bar {
+  box-shadow: 0 5px 15px aqua;
+  background: rgba(0, 255, 255, 0.150);
+}
+
+button.retweet:hover {
+  color: green;
+}
+button.retweet:hover > i.fa-retweet {
+  box-shadow: 0 5px 15px rgb(18, 172, 18);
+  background: rgba(18, 172, 18, 0.150);
+}
+
+button.heart:hover {
+  color: red;
+}
+button.heart:hover > i.fa-heart {
+  box-shadow: 0 5px 15px rgb(255, 46, 46);
+  background: rgba(255, 42, 42, 0.15);
+}
